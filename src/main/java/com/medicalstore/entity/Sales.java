@@ -10,6 +10,7 @@ import jakarta.validation.constraints.NotNull;
  * @Entity
  * @Author Siva Ganesh
  */
+//entity represents table name
 @Entity
 @Table(name="sales")
 public class Sales {

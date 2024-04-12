@@ -10,6 +10,7 @@ import com.medicalstore.entity.Sales;
  * @Repository
  * @Author Siva Ganesh
  */
+//repository
 @Repository
 public interface SalesRepository extends JpaRepository<Sales, Long>{
 	List<Sales> findByClientId(Long clientId);

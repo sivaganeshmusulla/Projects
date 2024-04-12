@@ -19,6 +19,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/sales")
 public class SalesController {
+	//dependency injection
     @Autowired
     private ClientDao clientDao;
     @Autowired

@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.ResponseStatus;
  * @SalesNotFoundException
  * @Author Siva Ganesh
  */
-
+//it returns statuscode
 @ResponseStatus(HttpStatus.NOT_FOUND)
 public class SalesNotFoundException extends RuntimeException {
 

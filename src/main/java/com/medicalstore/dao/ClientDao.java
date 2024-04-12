@@ -17,7 +17,7 @@ import com.medicalstore.dto.ClientDto;
 
 @FeignClient(name="CLIENTSERVICE",url="http://localhost:9092")
 public interface ClientDao {
-	
+		//get mapping
 		@GetMapping("/clients/get/{id}")
 	    public ResponseEntity<ClientDto> getClientById(@PathVariable Long id);
 		
